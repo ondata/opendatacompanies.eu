@@ -191,9 +191,9 @@ Exhibit.Localization.importLocale("it", {
 
     "%widget.bookmark.tooltip": "Fai click qui per generare un bookmark con i filtri che hai applicato",
 
-    "%widget.collectionSummary.resetFiltersLabel": "Annulla tutti i filtri",
+    "%widget.collectionSummary.resetFiltersLabel": "Reset All Filters",
     "%widget.collectionSummary.resetFiltersTooltip": "Clear all filters and see the original items",
-    "%widget.collectionSummary.resetActionTitle": "Annulla tutti i filtri",
+    "%widget.collectionSummary.resetActionTitle": "Reset All Filters",
     "%widget.collectionSummary.allResultsTemplate": "<span class=\"%1$s\" id=\"resultDescription\"></span>",
     "%widget.collectionSummary.noResultsTemplate": "<span class=\"%1$s\"><span class=\"%2$s\">0</span> results</span> (<span id=\"resetActionLink\"></span>)",
     "%widget.collectionSummary.filteredResultsTemplate": "<span class=\"%1$s\" id=\"resultDescription\"></span> su <span id=\"originalCountSpan\">0</span> (<span id=\"resetActionLink\"></span>)",
