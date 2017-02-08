@@ -100,8 +100,27 @@
 			</script>
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		</div>
-		<div class="col-md-1 column"></div>
+		<div class="col-md-1 column">
+		</div>
 	</div>
+
+	<!-- feed rss con FeedEk -->
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div id="divRss"></div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/FeedEk.js"></script>
+	<script>
+		$('#divRss').FeedEk({
+			FeedUrl:'https://www.google.it/alerts/feeds/10644469760891604376/4095414386069168980'
+		});
+	</script>
+
+  <!-- FINE feed rss con FeedEk -->
+
 
 <hr>
 <footer>
