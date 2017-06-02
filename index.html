@@ -7,7 +7,7 @@
 	<meta name="description" content="opendatacompanies.eu is a simple list of opendata companies">
 	<meta name="author" content="@nelsonmau">
 	<meta name="keywords" content="Open Data, Opendata, Companies, Company, Startup, Europe">
-  
+
 	<meta property="og:image" content="http://opendatacompanies.eu/img/flag.jpg" />
 	<meta property="og:title" content="opendatacompanies.eu, a simple list of opendata companies" />
 	<meta property="og:url" content="http://opendatacompanies.eu" />
@@ -151,12 +151,19 @@
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
 								<tr>
-									<td><a ex:href-content=".Website" ex:onclick-subcontent="trackOutboundLink('{{.Website}}'); return false;" target="_blank">
-										<strong><span ex:content=".Company" class="petrusino"></strong></a></td>
-									<td><span ex:content=".Description"></td>
-									<td><span ex:content=".Country"></span></td>
-									<td><a ex:href-content=".Source_url" ex:onclick-subcontent="trackOutboundLink('{{.Source_url}}'); return false;" target="_blank"><strong>
-										<strong><span ex:content=".Source" class="petrusino"></strong></a></td>
+								<td>
+									<a ex:href-content=".Website" ex:onclick-subcontent="trackOutboundLink('{{.Website}}'); return false;" target="_blank">
+										<strong><span ex:content=".Company" class="petrusino"></strong></a>
+									<strong>Description:</strong> <span ex:content=".Description" class="petrusino"></span>
+									<br>
+									<strong>Country:</strong> <span ex:content=".Country"></span>
+									<br>
+									<strong><a ex:href-content=".Source_url" ex:onclick-subcontent="trackOutboundLink('{{.Source_url}}'); return false;" target="_blank"><strong>
+										<strong><span ex:content=".Source" class="petrusino"></strong></a>
+									<br>
+									<strong>Topic:</strong> <span ex:content=".domain"></span>
+									<br>
+								</td>
 								</tr>
 							</table>
 						</div>
