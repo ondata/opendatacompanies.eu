@@ -141,28 +141,32 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".Company,.Description,.Country,.Source"
-					ex:columnLabels="Company, Description, Country, Source"
-					ex:columnFormats="list,list,list,list"
-					ex:sortColumn="4"
+					ex:columns=".Website,.Country"
+					ex:columnLabels="Company, Country"
+					ex:columnFormats="list"
+					ex:sortColumn="0"
 					ex:sortAscending="true"
 					ex:tableStyler="tableStyler">
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
-							<table class="table" ex:class-content=".territorio">
+							<table class="table" ex:class-content=".Website">
 								<tr>
 								<td>
 									<a ex:href-content=".Website" ex:onclick-subcontent="trackOutboundLink('{{.Website}}'); return false;" target="_blank">
-										<strong><span ex:content=".Company" class="petrusino"></strong></a>
+										<strong><h2 ex:content=".Company" class=""></h2></strong></a>
+									<br>
 									<strong>Description:</strong> <span ex:content=".Description" class="petrusino"></span>
 									<br>
 									<strong>Country:</strong> <span ex:content=".Country"></span>
 									<br>
-									<strong><a ex:href-content=".Source_url" ex:onclick-subcontent="trackOutboundLink('{{.Source_url}}'); return false;" target="_blank"><strong>
-										<strong><span ex:content=".Source" class="petrusino"></strong></a>
+									<strong>Source:</strong> <a ex:href-content=".Source_url" ex:onclick-subcontent="trackOutboundLink('{{.Source_url}}'); return false;" target="_blank">
+										<span ex:content=".Source" class="petrusino"></a>
 									<br>
 									<strong>Topic:</strong> <span ex:content=".domain"></span>
 									<br>
+								</td>
+								<td>
+									<span ex:content=".Country"></span>
 								</td>
 								</tr>
 							</table>
